@@ -15,7 +15,7 @@ header{
     height: 101px;
     z-index: 10;
     position: relative;
-    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    /* box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%); */
 
 }
 
@@ -124,4 +124,57 @@ a{
     border-color: rgba(0,0, 0, .7);
     transform: scale(1.1);
 
+}
+
+@media (max-width: 600px){
+    .left-nav {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        font-weight: 200;
+        line-height: 15px;
+        font-size: 8px;
+    }
+    .right-nav{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        font-weight: 200;
+        line-height: 15px;
+        font-size: 8px;
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-left: -2px;
+        margin-right: -82px;
+    }
+    .find-store{
+        
+        display: flex;
+        height: 100%;
+        align-items: center;
+        font-weight: 200;
+        line-height: 15px;
+        font-size: 8.2px;
+        
+    }
+
+    header{
+        height: 101px;
+        z-index: 10;
+        max-width: 900px;
+        position: relative;
+        /* box-shadow: 0 1px 3px rgb(244, 240, 240), 0 2px 2px rgb(242, 239, 239), 0 0 2px rgb(237, 230, 230); */
+    
+    }
+
+
+    .header-container{
+        max-width: 900px;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
 }
