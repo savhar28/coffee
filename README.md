@@ -2,7 +2,17 @@
 This is a clone of the Starbucks website created using HTML and CSS. The website includes the following pages:  Home: This is the main page of the website, featuring the latest promotions and products. Menu: This page displays the full menu of Starbucks products, including coffee, tea, and snacks. Locations: This page shows 
 
 ## 🔑Features
-This is a clone of the Starbucks websi
+The Starbucks website project includes the following features:
+
+Homepage with a hero banner and call-to-action button 🏠
+
+Menu page with sections for coffee, tea, and food items 🍩🍵☕️
+
+Store locator page with a Google Maps integration 🗺️
+
+Contact us page with a contact form and social media links 📞📱
+
+Responsive design that adapts to different screen sizes 📱💻🖥️
 
 
 # 🔗Live Demo 
